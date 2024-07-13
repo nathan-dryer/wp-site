@@ -38,3 +38,6 @@ wp-content/litespeed/
 
 # Ignore object-cache.php
 wp-content/object-cache.php
+
+# Ignore .private/config.json
+.private/config.json
