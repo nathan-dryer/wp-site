@@ -1,0 +1,35 @@
+# .gitignore for WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/ai1wm-backups/
+wp-content/updraft/
+wp-content/upgrade-temp-backup/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/debug.log
+
+# Ignore sensitive information
+*.log
+*.sql
+*.sqlite
+
+# Ignore specific plugins if needed
+# wp-content/plugins/plugin-name/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Elementor custom CSS files
+wp-content/uploads/elementor/css/
+
+# Ignore LiteSpeed Cache
+wp-content/litespeed/
+
+# Ignore object-cache.php
+wp-content/object-cache.php

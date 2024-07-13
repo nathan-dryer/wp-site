@@ -1,0 +1,110 @@
+.openwidget_admin_page--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.openwidget_admin_page--container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F6F6F7;
+  border: 1px solid #e2e2e4;
+  border-radius: 16px;
+  padding: 64px 84px;
+  width: 350px;
+  margin: auto;
+}
+
+.openwidget_admin_page--button {
+  appearance: none;
+  font-size: 16px;
+  background-color: #131317;
+  border-radius: 8px;
+  color: #fff;
+  flex-shrink: 0;
+  margin: 8px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1.5;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  position: relative;
+  border: 0;
+}
+
+.openwidget_admin_page--button:hover {
+  color: #fff;
+  background-color: #131317;
+}
+
+.openwidget_admin_page--section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.openwidget_admin_page--success {
+  color: #0a3d00;
+  background-color: #97d991;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.openwidget_admin_page--logo-full {
+  background-size: 300px 64px;
+  width: 300px;
+  height: 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.openwidget_admin_page--status-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 32px;
+}
+
+.openwidget_admin_page--container h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.2;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.openwidget_admin_page--container p {
+  font-size: 16px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 782px) {
+  .openwidget_admin_page--container {
+    max-width: 100%;
+    padding: 32px;
+  }
+
+  .openwidget_admin_page--logo-full {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .openwidget_admin_page--container {
+    max-width: 100%;
+    width: auto;
+  }
+}
