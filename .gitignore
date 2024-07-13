@@ -19,8 +19,13 @@ wp-content/debug.log
 *.sql
 *.sqlite
 
-# Ignore specific plugins if needed
-# wp-content/plugins/plugin-name/
+# Ignore all plugins except Elementor, Open-Widget, and Lightspeed
+wp-content/plugins/*
+!wp-content/plugins/elementor/
+!wp-content/plugins/elementor-beta/
+!wp-content/plugins/elementor-pro/
+!wp-content/plugins/free-customer-service-tools-by-openwidget/
+!wp-content/plugins/litespeed-cache/
 
 # Ignore Mac system files
 .DS_Store
